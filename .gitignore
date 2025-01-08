@@ -1,0 +1,12 @@
+*
+!.gitignore
+!*.c
+!*.h
+!dummy.md
+!*/
+!.myfuncs
+!*.sh
+!makefile
+!*.cpp
+!*.hpp
+!*.puml
