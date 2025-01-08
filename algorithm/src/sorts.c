@@ -1,7 +1,6 @@
 /* 
 	Developer: Roy Steiner.
 	File: Sorts.
-	Reviewer: Yoni. 
 	Date: 28/07/24
 	Status: Approved.
 */

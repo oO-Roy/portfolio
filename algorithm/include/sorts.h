@@ -3,7 +3,6 @@
 
 #include <stddef.h> /* size_t */
 
-
 typedef int (*qsort_comp_func) (const void*, const void*);
 
 /*--------------- Comparison sorts ---------------*/

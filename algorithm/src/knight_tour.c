@@ -1,10 +1,10 @@
 /* 
 	Developer: Roy Steiner.
 	File: Knight's tour.
-	Reviewer: Amos Duek. 
 	Date: 23/08/24
 	Status: Approved.
 */
+
 #include <assert.h> /*assert*/
 
 #include "knight_tour.h" /*size_t, MACROS*/

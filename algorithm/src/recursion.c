@@ -1,10 +1,10 @@
 /* 
 	Developer: Roy Steiner.
 	File: Recursion.
-	Reviewer: Yoni. 
 	Date: 28/07/24
 	Status: Approved.
 */
+
 #include <assert.h>
 #include <string.h> /* strncmp */
 

@@ -1,10 +1,10 @@
 /* 
 	Developer: Roy Steiner.
 	File: Search.
-	Reviewer: Yoni. 
 	Date: 28/07/24
 	Status: Approved.
 */
+
 #include "search.h"
 
 int RecursiveBinarySearch(int arr[], size_t left, size_t right, int num)

@@ -21,5 +21,4 @@ int RecursiveStrCmp(const char *s1, const char *s2);
 char *RecursiveStrCat(char *dest, const char *src);
 char *RecursiveStrStr(const char *haystack, const char *needle);
 
-
 #endif	/* __RECURSION_H__ */
