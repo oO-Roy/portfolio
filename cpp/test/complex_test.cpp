@@ -3,8 +3,6 @@
 
 #include "complex.hpp"
 
-using namespace ilrd;
-
 int main()
 {
     Complex c1(20, 36);
@@ -62,7 +60,6 @@ int main()
     }
     end = clock();
     std::cout << "Addition time by reference: " << (end - start) << std::endl;
-
 
     return 0;
 }

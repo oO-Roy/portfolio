@@ -38,13 +38,13 @@ int main()
 {
     Mutex m;
     {
-        ilrd::ScopedLock<Mutex> obj(&m);
+        ScopedLock<Mutex> obj(&m);
     
         std::cout << "1st scope" << std::endl;
 
     }
     
-    ilrd::ScopedLock<Mutex> obj2(&m);
+    ScopedLock<Mutex> obj2(&m);
     std::cout << "2nd scope" << std::endl;
 
     return 0;

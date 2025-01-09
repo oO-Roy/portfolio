@@ -1,12 +1,9 @@
-// Developer: Roy Steiner.
 // File: Bit Array (C++).
-// Reviewer: Amos Duek
-// Date: 03/12/2024
 // Version 1.2.
 // Status: APPROVED. 
 
-#ifndef __ILRD_RD161_BIT_ARRAY_HPP__
-#define __ILRD_RD161_BIT_ARRAY_HPP__
+#ifndef __BIT_ARRAY_HPP__
+#define __BIT_ARRAY_HPP__
 
 #include <stdexcept>
 #include <string>   // std::string
@@ -16,8 +13,6 @@
 
 #define ARR_SIZE ((N / __CHAR_BIT__) + !!(N % __CHAR_BIT__))
 
-namespace ilrd
-{
 template <size_t N>
 class BitArr
 {
@@ -326,6 +321,4 @@ const unsigned char BitCountLUT::charLUT[256] =
                                 4, 5, 5, 6, 5, 6, 6, 7, 5, 6, 6, 7, 6, 7, 7, 8
                             };
 
-} // namespace ilrd
-
-#endif //__ILRD_RD161_BIT_ARRAY_HPP__
+#endif //__RD161_BIT_ARRAY_HPP__

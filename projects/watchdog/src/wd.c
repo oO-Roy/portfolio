@@ -1,7 +1,6 @@
 /* 
 	Developer: Roy Steiner.
 	File: Watchdog.
-	Reviewer: Evyatar Wienberg.
 	Date: 28/09/2024.
 	Status: APPROVED.
 */

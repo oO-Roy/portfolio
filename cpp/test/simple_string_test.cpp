@@ -2,8 +2,6 @@
 
 #include "simple_string.hpp"
 
-using namespace ilrd;
-
 int main(void)
 {
     String s1("Roy");

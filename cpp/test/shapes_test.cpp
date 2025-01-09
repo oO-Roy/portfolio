@@ -1,8 +1,6 @@
 #include <list>
 #include "shapes.hpp"
 
-using namespace ilrd;
-
 static void Test(std::list<Shapes*> list)
 {
     while (!list.empty())

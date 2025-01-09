@@ -1,15 +1,10 @@
-// Developer: Roy Steiner.
 // File: Shared pointer (C++).
-// Reviewer: Shay. 
-// Date: 27/11/2024.
 // Version 1.1.
 // Status: APPROVED.
 
 #include <iostream>
 
 #include "shared_ptr.hpp"
-
-using namespace ilrd;
 
 class Base
 {

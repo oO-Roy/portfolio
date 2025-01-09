@@ -1,11 +1,9 @@
-#ifndef ILRD_RD161_SHAPES_HPP 
-#define ILRD_RD161_SHAPES_HPP
+#ifndef __SHAPES_HPP__ 
+#define __SHAPES_HPP__
 
 #include <string>
 #include <iostream>
 
-namespace ilrd
-{
 class Shapes
 {
 public:  
@@ -51,7 +49,6 @@ class Square : public Shapes
 public:
     Square();
 };
-} // namespace ilrd
 
-#endif /* ILRD_RD161_SHAPES_HPP */
+#endif /* __SHAPES_HPP__ */
                     

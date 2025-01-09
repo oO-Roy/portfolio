@@ -1,12 +1,9 @@
-// Developer: Roy Steiner.
 // File: Reference Counted String (C++).
-// Reviewer: Amos Duek. 
-// Date: 24/10/2024.
 // Version 2.0
 // Status: APPROVED.
 
-#ifndef ILRD_RD161_RCS_HPP
-#define ILRD_RD161_RCS_HPP
+#ifndef __RCS_HPP__
+#define __RCS_HPP__
 
 #include <iostream> // for istream, ostream and size_t
 #include <cstring> // strlen, strcpy
@@ -17,9 +14,6 @@
 	#define noexcept throw()
 #endif // #if cplusplus >= 201103L
 
-namespace ilrd
-{
-    
 class RCString
 {
 private:
@@ -140,6 +134,4 @@ inline RCString::CharProxy::operator char() const // conversion of a proxy to an
     return m_rcs.ToCStr()[m_index];
 }
 
-}// namespace ilrd
-
-#endif // ILRD_RD161_RCS_HPP 
+#endif // __RCS_HPP__

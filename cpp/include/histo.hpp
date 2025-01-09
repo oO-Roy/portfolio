@@ -1,20 +1,14 @@
-// Developer: Roy Steiner.
 // File: Histo.
-// Reviewer: . 
-// Date: .
 // Version 1.0
 // Status: APPROVED.
 
-#ifndef ILRD_RD161_HISTO_HPP
-#define ILRD_RD161_HISTO_HPP
+#ifndef __HISTO_HPP__
+#define __HISTO_HPP__
 
 #include <map>
 #include <queue>
 #include <string>
 #include <iostream>
-
-namespace ilrd
-{
 
 class Histo
 {
@@ -66,6 +60,4 @@ inline void Histo::PrintString()
     }
 }
 
-} // namespace ilrd
-
-#endif // ILRD_RD161_HISTO_HPP 
+#endif // __HISTO_HPP__

@@ -1,10 +1,8 @@
-#ifndef __ILRD_RD161_SCOPED_LOCK_H__
-#define __ILRD_RD161_SCOPED_LOCK_H__
+#ifndef __SCOPED_LOCK_H__
+#define __SCOPED_LOCK_H__
 
 #include <cstddef> // size_t
 
-namespace ilrd
-{
 // ScopedLock
 // Requirements:
 // For an object m of type MutexType, m.lock() must lock the object, m.unlock() must
@@ -38,6 +36,4 @@ ScopedLock<MutexType>::~ScopedLock()
     m_lock->Unlock();
 }
 
-} // namespace ilrd
-
-#endif //__ILRD_RD161_SCOPED_LOCK_H__
+#endif //__SCOPED_LOCK_H__

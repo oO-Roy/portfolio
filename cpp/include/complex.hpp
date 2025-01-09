@@ -1,17 +1,12 @@
-// Developer: Roy Steiner.
 // File: Complex (C++).
-// Reviewer: Alon Kalif. 
-// Date: 16/10/2024.
 // Status: APPROVED.
 
-#ifndef ILRD_RD161_COMPLEX_HPP
-#define ILRD_RD161_COMPLEX_HPP
+#ifndef _COMPLEX_HPP__
+#define _COMPLEX_HPP__
 
 #include <iostream> // for istream and ostream
 #include <cmath> // pow
 
-namespace ilrd
-{
 class Complex
 {
 public:
@@ -173,7 +168,6 @@ inline std::istream& operator>>(std::istream& is, Complex& number)
 
     return is;
 }
-}
 
-#endif /* ILRD_RD161_COMPLEX_HPP */
+#endif /* __COMPLEX_HPP__ */
                     

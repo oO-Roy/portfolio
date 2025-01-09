@@ -1,11 +1,9 @@
-// Developer: Roy Steiner.
 // File: cpp2c - cpp part.
-// Reviewer:
-// Date: 05/11/2024.
 // Version 1.0.
 // Status: 
 
 #include <iostream> //cout
+
 using namespace std;
 
 class PublicTransport {

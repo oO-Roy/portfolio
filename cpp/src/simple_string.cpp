@@ -1,15 +1,9 @@
-// Developer: Roy Steiner.
 // File: simple_string (C++).
-// Reviewer: 
-// Date:
 // Status: Waiting for CR.
 
 #include <cstring> /*strlen, strcpy*/
 
 #include "simple_string.hpp" /*forward declaration*/
-
-namespace ilrd
-{
 
 char* String::NewString(const char* string)
 {
@@ -83,5 +77,4 @@ bool operator<(const String& lhs, const String& rhs)
 bool operator>(const String& lhs, const String& rhs)
 {
     return  (0 < strcmp(lhs.Cstr(), rhs.Cstr()));
-}
 }

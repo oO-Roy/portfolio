@@ -1,17 +1,11 @@
-// Developer: Roy Steiner.
 // File: Shared pointer (C++).
-// Reviewer: Shay. 
-// Date: 27/11/2024.
 // Version 1.1.
 // Status: APPROVED.
 
-#ifndef __ILRD_RD161_SHARED_PTR_HPP__
-#define __ILRD_RD161_SHARED_PTR_HPP__
+#ifndef __SHARED_PTR_HPP__
+#define __SHARED_PTR_HPP__
 
 #include <cstddef> // for size_t
-
-namespace ilrd
-{
 
 template <typename T>
 class SharedPtr
@@ -110,6 +104,4 @@ inline void SharedPtr<T>::DecreaseCounterAndCheckForDelete()
     }
 }
 
-} // namespace ilrd
-
-#endif //__ILRD_RD161_SHARED_PTR_HPP__
+#endif //__SHARED_PTR_HPP__

@@ -1,7 +1,4 @@
-/*  Developer: Roy Steiner.
-    File: cpp2c - c part.
-    Reviewer: Alon Brull.
-    Date: 05/11/2024.
+/*  File: cpp2c - c part.
     Version 1.3.
     Status: APPROVED */
 

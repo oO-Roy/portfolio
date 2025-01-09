@@ -1,7 +1,4 @@
-// Developer: Roy Steiner.
 // File: Bit Array (C++).
-// Reviewer: Amos Duek
-// Date: 03/12/2024
 // Version 1.2.
 // Status: APPROVED.
 
@@ -9,7 +6,6 @@
 
 #include "bit_array.hpp"
 
-using namespace ilrd;
 using namespace std;
 
 bool Foo(const BitArr<8>& bit_arr)

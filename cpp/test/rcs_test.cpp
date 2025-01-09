@@ -9,8 +9,6 @@ const char* GREEN = "\033[0;32m";
 const char* BOLD_GREEN = "\033[5;1;32m";
 const char* RESET = "\033[0m";
 
-using namespace ilrd;
-
 size_t g_fails = 0;
 
 void TestCase(int expected_result, int given_result, int line)

@@ -1,11 +1,9 @@
-#ifndef ILRD_RD161_SIMPLE_STRING_HPP 
-#define ILRD_RD161_SIMPLE_STRING_HPP
+#ifndef __SIMPLE_STRING_HPP__ 
+#define __SIMPLE_STRING_HPP__
 
 #include <cstddef> /*size_t*/
 #include <iostream>
 
-namespace ilrd
-{
 class String
 {
 public:
@@ -27,7 +25,6 @@ std::ostream& operator<<(std::ostream& lhs, const String& rhs);
 bool operator==(const String& lhs, const String& rhs);
 bool operator<(const String& lhs, const String& rhs);
 bool operator>(const String& lhs, const String& rhs);
-}
 
-#endif /* ILRD_RD161_SIMPLE_STRING_HPP */
+#endif /* __SIMPLE_STRING_HPP__ */
                     

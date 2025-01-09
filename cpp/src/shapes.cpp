@@ -1,8 +1,5 @@
 #include "shapes.hpp"
 
-namespace ilrd
-{    
-    
 Shapes::Shapes(const std::string& name) : m_str(name)
 {
     // nothing
@@ -32,5 +29,3 @@ Square::Square() : Shapes("Square")
 {
 
 }
-
-} // namespace ilrd

@@ -1,14 +1,8 @@
-// Developer: Roy Steiner.
 // File: Reference Counted String (C++).
-// Reviewer: Amos Duek. 
-// Date: 24/10/2024.
 // Version 2.0
 // Status: APPROVED.
 
 #include "rcs.hpp" // forward declaration
-
-namespace ilrd
-{
 
 const size_t RCString::MAX_INPUT_BUFF = 80;
 
@@ -97,7 +91,5 @@ char* RCString::CharProxy::operator&() // may throw bad_alloc
 
     return &m_rcs.m_data->m_str[m_index];
 }
-
-}// namespace ilrd
 
 
