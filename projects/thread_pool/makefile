@@ -9,15 +9,12 @@ RFLAGS= -ansi -pedantic-errors -Wall -Wextra -DNDEBUG -O3 -I include
 TARGET := $(word 1, $(MAKECMDGOALS))
 
 #----------------------------------User test-----------------------------------#
-# $(TARGET): 
-# 	$(CC) test/$@_test.cpp $(CFLAGS) -I include -o run_$@
-
-# thread_pool: 
-# 	$(CC) test/$@_test.cpp src/$@.cpp $(CFLAGS) -I include -o run_$@
-
 $(TARGET): 
-	$(CC) test/$@_test.cpp src/$@.cpp $(CFLAGS) -I include -o run_$@
+	$(CC) test/$@_test.cpp $(CFLAGS) -o run_$@
+
+thread_pool: 
+	$(CC) test/$@_test.cpp src/$@.cpp $(CFLAGS) -o run_$@
 
 factory:
-	$(CC) test/$@_test.cpp src/$@.cpp $(CFLAGS) src/thread_pool.cpp \ 
-	-I include -o run_$@
+	$(CC) test/$@_test.cpp src/thread_pool.cpp -I include -o run_$@
+

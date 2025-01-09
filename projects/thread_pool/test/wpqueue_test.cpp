@@ -19,7 +19,7 @@ int main()
     
     w_pq.Pop(&out_p);
     
-    w_pq.Pop(&out_p);
+    // w_pq.Pop(&out_p);
 
     return 0;
 }
