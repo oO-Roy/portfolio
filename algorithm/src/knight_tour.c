@@ -1,7 +1,5 @@
 /* 
-	Developer: Roy Steiner.
 	File: Knight's tour.
-	Date: 23/08/24
 	Status: Approved.
 */
 

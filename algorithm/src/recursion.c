@@ -1,7 +1,5 @@
 /* 
-	Developer: Roy Steiner.
 	File: Recursion.
-	Date: 28/07/24
 	Status: Approved.
 */
 

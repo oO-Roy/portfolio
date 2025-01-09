@@ -1,7 +1,5 @@
 /* 
-	Developer: Roy Steiner.
 	File: Sorts.
-	Date: 28/07/24
 	Status: Approved.
 */
 
