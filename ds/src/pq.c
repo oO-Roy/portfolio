@@ -1,10 +1,8 @@
 /* 
-	Developer: Roy Steiner.
 	File: Priority queue.
-	Reviewer: Shimon Schwartz.
-	Date: 09.07.2024
-	Status: Approved.
+	Status: APPROVED.
 */
+
 #include <assert.h> /* assert */
 #include <stdlib.h> /* malloc & free */
 

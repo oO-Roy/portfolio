@@ -1,10 +1,8 @@
 /* 
-	Developer: Roy Steiner.
 	File: Heap.
-	Reviewer: Shay.
-	Date: 19/08/2024.
 	Status: APPROVED.
 */
+
 #include <assert.h> /*assert*/
 #include <stdlib.h> /*malloc & free*/
 

@@ -1,8 +1,5 @@
 /* 
-	Developer: Roy Steiner
-	File: Hash_table
-	Reviewer: Yakir Asur.
-	Date: 14/08/2024.
+	File: Hash_table.
 	Status: Approved.
 */
 

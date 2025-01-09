@@ -1,5 +1,4 @@
 // File: Reference Counted String (C++).
-// Version 2.0
 // Status: APPROVED.
 
 #include "rcs.hpp" // forward declaration

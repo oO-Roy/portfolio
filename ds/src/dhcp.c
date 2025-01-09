@@ -1,8 +1,5 @@
 /* 
-	Developer: Roy Steiner.
 	File: Dynamic Host Configuration Protocol.
-	Reviewer: 
-	Date: 
 	Status: APPROVED.
 */
 

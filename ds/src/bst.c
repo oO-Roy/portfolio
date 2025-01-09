@@ -1,8 +1,5 @@
 /* 
-	Developer: Roy Steiner.
 	File: Binary search tree.
-	Reviewer: Alon Brull. 
-	Date: 31/07/24
 	Status: APPROVED.
 */
 

@@ -1,9 +1,6 @@
 /* 
-	Developer: Roy Steiner.
 	File: Scheduler.
-	Reviewer: Amos Duek. 
-	Date: 20/07/24
-	Status: Approved.
+	Status: APPROVED.
 */
 #include <unistd.h> /* sleep */
 #include <assert.h> /* assert */

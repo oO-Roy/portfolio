@@ -1,5 +1,4 @@
 // File: Shared pointer (C++).
-// Version 1.1.
 // Status: APPROVED.
 
 #ifndef __SHARED_PTR_HPP__

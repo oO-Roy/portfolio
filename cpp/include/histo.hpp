@@ -1,5 +1,4 @@
 // File: Histo.
-// Version 1.0
 // Status: APPROVED.
 
 #ifndef __HISTO_HPP__

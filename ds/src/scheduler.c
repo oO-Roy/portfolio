@@ -1,10 +1,8 @@
 /* 
-	Developer: Roy Steiner.
 	File: Scheduler by heap.
-	Reviewer: 
-	Date: 
-	Status: 
+	Status: APPROVED.
 */
+
 #include <unistd.h> /* sleep */
 #include <assert.h> /* assert */
 #include <stdlib.h> /* malloc and free */

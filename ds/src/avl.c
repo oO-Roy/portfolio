@@ -1,10 +1,8 @@
 /* 
-	Developer: Roy Steiner.
 	File: AVL (recursive bst balancing).
-	Reviewer: Amos Duek. 
-	Date: 05/08/2024
 	Status: APPROVED.
 */
+
 #include <stdlib.h>	/* malloc & free */
 #include <assert.h>	/* assert */
 

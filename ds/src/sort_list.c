@@ -1,12 +1,6 @@
 /* 
-	From today we add this to the the start of our files and fill it:
-	
-	Developer: Roy Steiner
-	File: Sorted list
-	Reviewer: Yakir Asor
-	Date: 27.6.2024
-	Status: Approved.
-	
+	File: Sorted list.
+	Status: APPROVED.
 */
 
 #include <stdlib.h>	/* malloc and free */

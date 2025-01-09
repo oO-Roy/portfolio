@@ -1,10 +1,8 @@
 /* 
-	Developer: Roy Steiner.
 	File: Priority queue by heap DS.
-	Reviewer: 
-	Date: 
-	Status: 
+	Status: APPROVED.
 */
+
 #include <stdlib.h> /*malloc & free*/
 #include <assert.h> /*assert*/
 

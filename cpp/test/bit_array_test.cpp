@@ -1,5 +1,4 @@
 // File: Bit Array (C++).
-// Version 1.2.
 // Status: APPROVED.
 
 #include <iostream>

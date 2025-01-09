@@ -1,8 +1,5 @@
 /* 
-	Developer: Roy Steiner.
 	File: Trie.
-	Reviewer:  
-	Date: 
 	Status: APPROVED.
 */
 
