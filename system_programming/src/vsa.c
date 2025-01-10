@@ -1,8 +1,5 @@
 /* 
-	Developer: Roy Steiner.
 	File: Fixed size allocator.
-	Reviewer: Amos Duek.
-	Date: 21.07.2024
 	Status: Approved.
 */
 

@@ -1,8 +1,5 @@
 /* 
-	Developer: Roy Steiner
 	File: semaphores
-	Reviewer: Evyatar Weinberg.
-	Date: 15/09/2024.
 	Status: APPROVED.
 */
 

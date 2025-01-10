@@ -1,9 +1,6 @@
 /* 
-	Developer: Roy Steiner.
 	File: mt_lex_sort.
-	Reviewer: 
-	Date:
-	Status: Approved.
+	Status: APPROVED.
 */
 #include <stdlib.h> /*malloc & free*/
 #include <pthread.h> /*typedef, create, join*/

@@ -1,9 +1,6 @@
 /* 
-	Developer: Roy Steiner.
 	File: Fixed size allocator.
-	Reviewer: Mentor - Omer.
-	Date: 18.07.2024
-	Status: Approved.
+	Status: APPROVED.
 */
 
 #include <assert.h> /* assert */

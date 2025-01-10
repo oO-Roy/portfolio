@@ -1,8 +1,4 @@
-/* 	Developer: Roy Steiner.
-	File: File system parsing (C).
-	Reviewer: Yehonatan Peleg.  
-	Date: 17/11/2024.
-	Version 1.0
+/* 	File: File system parsing (C).
 	Status:  APPROVED. */
 
 #define _XOPEN_SOURCE 500 /*pread*/
