@@ -1,4 +1,0 @@
-void Foo(void)
-{
-	PrintGlobalVariableAddress();
-}

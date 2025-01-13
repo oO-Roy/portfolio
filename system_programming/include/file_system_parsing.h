@@ -9,11 +9,11 @@
     (file-system) of type 'ext2', this kind of device can be achived by:
     
     """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-    "   :    mkdir -p /home/XXX/git/ext2                               "
+    "   :    mkdir -p /home/XXX/github/ext2                               "
     "   :    sudo modprobe brd rd_nr=1 rd_size=1050000 max_part=0      "
     "   :    sudo mkfs.ext2 /dev/ram0                                  "
-    "   :    sudo mount -t ext2 -o sync /dev/ram0 /home/XXX/git/ext2   "
-    "   :    sudo chown XXX /home/XXX/git/ext2                         "
+    "   :    sudo mount -t ext2 -o sync /dev/ram0 /home/XXX/github/ext2   "
+    "   :    sudo chown XXX /home/XXX/github/ext2                         "
     "   :    sudo chown XXX /dev/ram0                                  "
     """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
                                                                               */
