@@ -15,7 +15,7 @@ EXE = bin/run_$@
 
 
 $(TARGET): $(DEBUG_PATH)/lib$(TARGET).so $(RELEASE_PATH)/lib$(TARGET).so
-	@$(CC) test/$(TARGET)_test.c $(CFLAGS) -L$(DEBUG_PATH) -l$@ -Wl,-rpath=$(DEBUG_PATH) $(CPPFLAGS) -o $(EXE)
+	@$(CC) test/$(TARGET)_test.c $(CFLAGS) -L$(DEBUG_PATH) -l$@ -Wl,-rpath=$(DEBUG_PATH) $(CPPFLAGS) -o run_$@
 
 $(RELEASE_PATH)/lib$(TARGET).so: src/$(TARGET).c
 	@$(CC) $< $(RELEASE_FLAGS) $(SO_FLAGS) $(CPPFLAGS) -o $@
