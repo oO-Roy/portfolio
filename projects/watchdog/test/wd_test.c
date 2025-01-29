@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
 	time_t now = 0;
 	time_t start = time(NULL);
 
-	printf("Hey I'm CLIENT[%d]\n", getpid());
+	printf("Hey! I'm CLIENT[%d]\n", getpid());
 
 	WDStart(1, 2, argc, argv);
 
