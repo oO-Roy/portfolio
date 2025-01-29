@@ -3,8 +3,6 @@
 
 #include "wd.h"
 
-#define UNUSED(x) (void)(x)
-
 int main(int argc, char *argv[])
 {
 	time_t now = 0;

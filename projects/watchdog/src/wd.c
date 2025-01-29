@@ -70,8 +70,10 @@ static int CheckTrashold(void* param)
     {
         #ifndef NDEBUG
             IsWatchdogProcess() 
-                ? printf("[%d]: CLIENT[%d] is "BOLD_RED"DEAD "RESET"\n", getpid(), getppid()) 
-                : printf("[%d]: WATCHDOG[%d] is "BOLD_RED"DEAD "RESET"\n", getpid(), g_child_pid);
+                ? printf("[%d]: CLIENT[%d] is "BOLD_RED"DEAD "RESET"\n"
+                                                        , getpid(), getppid()) 
+                : printf("[%d]: WATCHDOG[%d] is "BOLD_RED"DEAD "RESET"\n"
+                                                    , getpid(), g_child_pid);
         #endif
 
          if (IsWatchdogProcess())
@@ -118,8 +120,10 @@ static int CheckTrashold(void* param)
     {
         #ifndef NDEBUG
             IsWatchdogProcess() 
-            ? printf("[%d]: CLIENT[%d] is "BOLD_GREEN"ALIVE "RESET"\n", getpid(), getppid()) 
-                : printf("[%d]: WATCHDOG[%d] is "BOLD_GREEN"ALIVE "RESET"\n", getpid(), g_child_pid);
+            ? printf("[%d]: CLIENT[%d] is "BOLD_GREEN"ALIVE "RESET"\n"
+                                                        , getpid(), getppid()) 
+                : printf("[%d]: WATCHDOG[%d] is "BOLD_GREEN"ALIVE "RESET"\n"
+                                                    , getpid(), g_child_pid);
         #endif
     }    
 
