@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 	size_t trashold = atoi(argv[argc - 1]);
 	
 	#ifndef NDEBUG
-	printf(" Hey there I'm WATCHDOG [pid: %d]\n", getpid());
+	printf("Hey! I'm WATCHDOG[%d]\n", getpid());
 	#endif
 
 	WDStart(interal, trashold, argc, argv);

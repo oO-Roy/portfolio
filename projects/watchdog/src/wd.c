@@ -21,6 +21,12 @@
 #include "wd.h" /*wd_status_t*/
 #include "scheduler.h" /*API use*/
 
+#ifndef NDEBUG
+    #define BOLD_RED "\033[1;31m"
+    #define BOLD_GREEN "\033[5;1;32m"
+    #define RESET "\033[0m"
+#endif
+
 #define UNUSED(x) (void)(x)
 #define RW_R_R 0644
 
@@ -64,9 +70,8 @@ static int CheckTrashold(void* param)
     {
         #ifndef NDEBUG
             IsWatchdogProcess() 
-                ? printf("CLIENT [pid: %d] is DEAD %d\n", getppid(), getpid()) 
-                : printf("  WATCHDOG [pid: %d] is DEAD %d\n", g_child_pid
-                                                                    , getpid());
+                ? printf("[%d]: CLIENT[%d] is "BOLD_RED"DEAD "RESET"\n", getpid(), getppid()) 
+                : printf("[%d]: WATCHDOG[%d] is "BOLD_RED"DEAD "RESET"\n", getpid(), g_child_pid);
         #endif
 
          if (IsWatchdogProcess())
@@ -113,9 +118,8 @@ static int CheckTrashold(void* param)
     {
         #ifndef NDEBUG
             IsWatchdogProcess() 
-            ? printf("CLIENT [pid: %d] is ALIVE %d\n", getppid(), getpid()) 
-                : printf("  WATCHDOG [pid: %d] is ALIVE %d\n", g_child_pid
-                                                                    , getpid());
+            ? printf("[%d]: CLIENT[%d] is "BOLD_GREEN"ALIVE "RESET"\n", getpid(), getppid()) 
+                : printf("[%d]: WATCHDOG[%d] is "BOLD_GREEN"ALIVE "RESET"\n", getpid(), g_child_pid);
         #endif
     }    
 
