@@ -3,6 +3,7 @@
 !*.c
 !*.h
 !dummy.md
+!README.md
 !*/
 !.myfuncs
 !*.sh
@@ -10,3 +11,4 @@
 !*.cpp
 !*.hpp
 !*.puml
+
